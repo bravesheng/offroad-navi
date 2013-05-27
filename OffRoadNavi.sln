@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OffRoadNavi", "OffRoadNavi.vcproj", "{284B876D-D53B-3014-876A-E6164D701704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Core2416 (ARMV4I) = Debug|Core2416 (ARMV4I)
+		Release|Core2416 (ARMV4I) = Release|Core2416 (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{284B876D-D53B-3014-876A-E6164D701704}.Debug|Core2416 (ARMV4I).ActiveCfg = Debug|Core2416 (ARMV4I)
+		{284B876D-D53B-3014-876A-E6164D701704}.Debug|Core2416 (ARMV4I).Build.0 = Debug|Core2416 (ARMV4I)
+		{284B876D-D53B-3014-876A-E6164D701704}.Debug|Core2416 (ARMV4I).Deploy.0 = Debug|Core2416 (ARMV4I)
+		{284B876D-D53B-3014-876A-E6164D701704}.Release|Core2416 (ARMV4I).ActiveCfg = Release|Core2416 (ARMV4I)
+		{284B876D-D53B-3014-876A-E6164D701704}.Release|Core2416 (ARMV4I).Build.0 = Release|Core2416 (ARMV4I)
+		{284B876D-D53B-3014-876A-E6164D701704}.Release|Core2416 (ARMV4I).Deploy.0 = Release|Core2416 (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

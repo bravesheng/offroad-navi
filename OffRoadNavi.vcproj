@@ -1,0 +1,1866 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="OffRoadNavi"
+	ProjectGUID="{284B876D-D53B-3014-876A-E6164D701704}"
+	RootNamespace="OffRoadNavi"
+	Keyword="Qt4VSv1.0"
+	TargetFrameworkVersion="0"
+	>
+	<Platforms>
+		<Platform
+			Name="Core2416 (ARMV4I)"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Core2416 (ARMV4I)"
+			OutputDirectory="."
+			IntermediateDirectory="debug\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				ExecutionBucket="7"
+				AdditionalOptions="-Zm200 -w34100 -w34189 -Zm200 -w34100 -w34189 -w34100 -w34189"
+				Optimization="4"
+				FavorSizeOrSpeed="2"
+				AdditionalIncludeDirectories="c:\Qt\WINCE_4.5.0\include\QtCore;c:\Qt\WINCE_4.5.0\include\QtGui;c:\Qt\WINCE_4.5.0\include\QtXml;c:\Qt\WINCE_4.5.0\include;c:\Qt\WINCE_4.5.0\include\ActiveQt;debug;.;c:\Qt\WINCE_4.5.0\mkspecs\default"
+				PreprocessorDefinitions="DEBUG,_DEBUG,DEBUG,_DEBUG,DEBUG,_DEBUG,_WINDOWS,UNDER_CE,WINCE,_WINDOWS,_UNICODE,UNICODE,_WIN32,QT_NO_PRINTER,QT_NO_PRINTDIALOG,STANDARDSHELL_UI_MODEL,_WIN32_WCE=0x500,ARMV4I,_ARMV4I_,armv4i,_ARM_,ARM,_M_ARM,ARM,__arm__,Q_OS_WINCE_STD,QT_NO_PRINTER,QT_NO_PRINTDIALOG,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"
+				GeneratePreprocessedFile="0"
+				ExceptionHandling="0"
+				RuntimeLibrary="3"
+				BufferSecurityCheck="false"
+				TreatWChar_tAsBuiltInType="false"
+				AssemblerListingLocation="debug\"
+				ObjectFile="debug\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="DEBUG,_DEBUG,DEBUG,_DEBUG,DEBUG,_DEBUG,_WINDOWS,UNDER_CE,WINCE,_WINDOWS,_UNICODE,UNICODE,_WIN32,QT_NO_PRINTER,QT_NO_PRINTDIALOG,STANDARDSHELL_UI_MODEL,_WIN32_WCE=0x500,ARMV4I,_ARMV4I_,armv4i,_ARM_,ARM,_M_ARM,ARM,__arm__,Q_OS_WINCE_STD,QT_NO_PRINTER,QT_NO_PRINTDIALOG,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,_DEBUG"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="true"
+				AdditionalOptions="/SUBSYSTEM:WINDOWSCE,5.00 /MACHINE:THUMB /SUBSYSTEM:WINDOWSCE,5.00 /MACHINE:THUMB"
+				AdditionalDependencies="corelibc.lib c:\Qt\WINCE_4.5.0\lib\qtmaind.lib c:\Qt\WINCE_4.5.0\lib\QtXmld4.lib c:\Qt\WINCE_4.5.0\lib\QtGuid4.lib c:\Qt\WINCE_4.5.0\lib\QtCored4.lib"
+				OutputFile="debug\SportsNavi.exe"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="c:\Qt\WINCE_4.5.0\lib"
+				IgnoreDefaultLibraryNames="OLDNAMES.LIB"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				LinkTimeCodeGeneration="0"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCCodeSignTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+			<DeploymentTool
+				ForceDirty="-1"
+				RemoteDirectory="\ShellDisk\SportsNavi\"
+				RegisterOutput="0"
+				AdditionalFiles="QtGuid4.dll|C:\Qt\WINCE_4.5.0\lib|\ShellDisk\SportsNavi|0;QtCored4.dll|C:\Qt\WINCE_4.5.0\lib|\ShellDisk\SportsNavi|0;QtXmld4.dll||C:\Qt\WINCE_4.5.0\lib|\ShellDisk\SportsNavi|0"
+			/>
+			<DebuggerTool
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Core2416 (ARMV4I)"
+			OutputDirectory="."
+			IntermediateDirectory="release\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				ExecutionBucket="7"
+				AdditionalOptions="-Zm200 -w34100 -w34189 -Zm200 -w34100 -w34189 -w34100 -w34189"
+				Optimization="2"
+				FavorSizeOrSpeed="2"
+				WholeProgramOptimization="true"
+				AdditionalIncludeDirectories="c:\Qt\WINCE_4.5.0\include\QtCore;c:\Qt\WINCE_4.5.0\include\QtGui;c:\Qt\WINCE_4.5.0\include\QtXml;c:\Qt\WINCE_4.5.0\include;c:\Qt\WINCE_4.5.0\include\ActiveQt;release;.;c:\Qt\WINCE_4.5.0\mkspecs\default"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNDER_CE,WINCE,_WINDOWS,_UNICODE,UNICODE,_WIN32,QT_NO_PRINTER,QT_NO_PRINTDIALOG,STANDARDSHELL_UI_MODEL,_WIN32_WCE=0x500,ARMV4I,_ARMV4I_,armv4i,_ARM_,ARM,_M_ARM,ARM,__arm__,Q_OS_WINCE_STD,QT_NO_PRINTER,QT_NO_PRINTDIALOG,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,NDEBUG"
+				GeneratePreprocessedFile="0"
+				ExceptionHandling="0"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="false"
+				TreatWChar_tAsBuiltInType="false"
+				AssemblerListingLocation="release\"
+				ObjectFile="release\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="0"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNDER_CE,WINCE,_WINDOWS,_UNICODE,UNICODE,_WIN32,QT_NO_PRINTER,QT_NO_PRINTDIALOG,STANDARDSHELL_UI_MODEL,_WIN32_WCE=0x500,ARMV4I,_ARMV4I_,armv4i,_ARM_,ARM,_M_ARM,ARM,__arm__,Q_OS_WINCE_STD,QT_NO_PRINTER,QT_NO_PRINTDIALOG,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="true"
+				AdditionalOptions="/SUBSYSTEM:WINDOWSCE,5.00 /MACHINE:THUMB /SUBSYSTEM:WINDOWSCE,5.00 /MACHINE:THUMB"
+				AdditionalDependencies="corelibc.lib c:\Qt\WINCE_4.5.0\lib\qtmain.lib c:\Qt\WINCE_4.5.0\lib\QtXml4.lib c:\Qt\WINCE_4.5.0\lib\QtGui4.lib c:\Qt\WINCE_4.5.0\lib\QtCore4.lib"
+				OutputFile="release\SportsNavi.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="c:\Qt\WINCE_4.5.0\lib"
+				IgnoreDefaultLibraryNames="OLDNAMES.LIB"
+				GenerateDebugInformation="false"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				LinkTimeCodeGeneration="1"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCCodeSignTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+			<DeploymentTool
+				ForceDirty="-1"
+				RemoteDirectory="\ShellDisk\SportsNavi"
+				RegisterOutput="0"
+				AdditionalFiles="QtGui4.dll|C:\Qt\WINCE_4.5.0\lib|\ShellDisk\SportsNavi|0;QtCore4.dll|C:\Qt\WINCE_4.5.0\lib|\ShellDisk\SportsNavi|0;QtXml4.dll||C:\Qt\WINCE_4.5.0\lib|\ShellDisk\SportsNavi|0"
+			/>
+			<DebuggerTool
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath="AltimeterScreen.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\AnalyzingThread.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ANTsportScreen.cpp"
+				>
+			</File>
+			<File
+				RelativePath="Buttons.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CurrentTrack.cpp"
+				>
+			</File>
+			<File
+				RelativePath="ExternalLibrary.cpp"
+				>
+			</File>
+			<File
+				RelativePath="Gadget.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GadgetListBar.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GadgetListItem.cpp"
+				>
+			</File>
+			<File
+				RelativePath="GadgetsDialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="GadgetSlot.cpp"
+				>
+			</File>
+			<File
+				RelativePath="Global.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GPXUtility.cpp"
+				>
+			</File>
+			<File
+				RelativePath="ImagePool.cpp"
+				>
+			</File>
+			<File
+				RelativePath="main.cpp"
+				>
+			</File>
+			<File
+				RelativePath="MainMenuBar.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\MainMenuListItem.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\MainWindow.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Nordic.cpp"
+				>
+			</File>
+			<File
+				RelativePath="QItemInfo.cpp"
+				>
+			</File>
+			<File
+				RelativePath="QPOIDatabase.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\RdGuideEngine.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\RdTripComputer.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtEditBox.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtEditButton.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\RtExtKey.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\RtGPS.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtImage.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtKeyboard.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtKeyButton.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtListBox.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtPushButton.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtSettingButton.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtSettingList.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtTrackButton.cpp"
+				>
+			</File>
+			<File
+				RelativePath="RtWaypointButton.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SettingLog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="SettingScreen.cpp"
+				>
+			</File>
+			<File
+				RelativePath="StdGadgets.cpp"
+				>
+			</File>
+			<File
+				RelativePath="SysInfoScreen.cpp"
+				>
+			</File>
+			<File
+				RelativePath="TEditScreen.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Track.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\TrackList.cpp"
+				>
+			</File>
+			<File
+				RelativePath="TrackScreen.cpp"
+				>
+			</File>
+			<File
+				RelativePath="UnitsScreen.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ViewOnMap.cpp"
+				>
+			</File>
+			<File
+				RelativePath="waypointscreen.cpp"
+				>
+			</File>
+			<File
+				RelativePath="WEditScreen.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath="AltimeterScreen.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC AltimeterScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 AltimeterScreen.h -o debug\moc_AltimeterScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="AltimeterScreen.h;C:\Qt\WINCE_4.5.0\bin\moc.exe"
+						Outputs="debug\moc_AltimeterScreen.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC AltimeterScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 AltimeterScreen.h -o release\moc_AltimeterScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="AltimeterScreen.h;C:\Qt\WINCE_4.5.0\bin\moc.exe"
+						Outputs="release\moc_AltimeterScreen.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\AnalyzingThread.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC AnalyzingThread.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 AnalyzingThread.h -o debug\moc_AnalyzingThread.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;AnalyzingThread.h"
+						Outputs="debug\moc_AnalyzingThread.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC AnalyzingThread.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 AnalyzingThread.h -o release\moc_AnalyzingThread.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;AnalyzingThread.h"
+						Outputs="debug\moc_AnalyzingThread.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\ANTsportScreen.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC ANTsportScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 ANTsportScreen.h -o debug\moc_ANTsportScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;ANTsportScreen.h"
+						Outputs="debug\moc_ANTsportScreen.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC ANTsportScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 ANTsportScreen.h -o release\moc_ANTsportScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;ANTsportScreen.h"
+						Outputs="release\moc_ANTsportScreen.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Buttons.h"
+				>
+			</File>
+			<File
+				RelativePath=".\colors.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CurrentTrack.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine=""
+						AdditionalDependencies=""
+						Outputs=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine=""
+						AdditionalDependencies=""
+						Outputs=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ExternalLibrary.h"
+				>
+			</File>
+			<File
+				RelativePath="Gadget.h"
+				>
+			</File>
+			<File
+				RelativePath=".\GadgetListBar.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC GadgetListBar.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 GadgetListBar.h -o debug\moc_GadgetListBar.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;GadgetListBar.h"
+						Outputs="debug\moc_GadgetListBar.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC GadgetListBar.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 GadgetListBar.h -o release\moc_GadgetListBar.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;GadgetListBar.h"
+						Outputs="release\moc_GadgetListBar.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\GadgetListItem.h"
+				>
+			</File>
+			<File
+				RelativePath="GadgetsDialog.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC GadgetsDialog.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 GadgetsDialog.h -o debug\moc_GadgetsDialog.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;GadgetsDialog.h"
+						Outputs="debug\moc_GadgetsDialog.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC GadgetsDialog.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 GadgetsDialog.h -o release\moc_GadgetsDialog.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;GadgetsDialog.h"
+						Outputs="release\moc_GadgetsDialog.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="GadgetSlot.h"
+				>
+			</File>
+			<File
+				RelativePath="Global.h"
+				>
+			</File>
+			<File
+				RelativePath=".\GPXUtility.h"
+				>
+			</File>
+			<File
+				RelativePath="ImagePool.h"
+				>
+			</File>
+			<File
+				RelativePath="MainMenuBar.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC MainMenuBar.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 MainMenuBar.h -o debug\moc_MainMenuBar.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;MainMenuBar.h"
+						Outputs="debug\moc_MainMenuBar.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC MainMenuBar.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 MainMenuBar.h -o release\moc_MainMenuBar.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;MainMenuBar.h"
+						Outputs="release\moc_MainMenuBar.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\MainMenuListItem.h"
+				>
+			</File>
+			<File
+				RelativePath=".\MainWindow.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC MainWindow.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 MainWindow.h -o debug\moc_MainWindow.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;MainWindow.h"
+						Outputs="debug\moc_MainWindow.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC MainWindow.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 MainWindow.h -o release\moc_MainWindow.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;MainWindow.h"
+						Outputs="release\moc_MainWindow.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Nordic.h"
+				>
+			</File>
+			<File
+				RelativePath="QItemInfo.h"
+				>
+			</File>
+			<File
+				RelativePath="QPOIDatabase.h"
+				>
+			</File>
+			<File
+				RelativePath=".\RdGuideEngine.h"
+				>
+			</File>
+			<File
+				RelativePath=".\RdTripComputer.h"
+				>
+			</File>
+			<File
+				RelativePath="RtEditBox.h"
+				>
+			</File>
+			<File
+				RelativePath="RtEditButton.h"
+				>
+			</File>
+			<File
+				RelativePath=".\RtExtKey.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtExtKey.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtExtKey.h -o debug\moc_RtExtKey.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtExtKey.h"
+						Outputs="debug\moc_RtExtKey.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtExtKey.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtExtKey.h -o release\moc_RtExtKey.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtExtKey.h"
+						Outputs="release\moc_RtExtKey.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="RtGlobalDefine.h"
+				>
+			</File>
+			<File
+				RelativePath=".\RtGPS.h"
+				>
+			</File>
+			<File
+				RelativePath="RtImage.h"
+				>
+			</File>
+			<File
+				RelativePath="RtKeyboard.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtKeyboard.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtKeyboard.h -o debug\moc_RtKeyboard.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtKeyboard.h"
+						Outputs="debug\moc_RtKeyboard.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtKeyboard.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtKeyboard.h -o release\moc_RtKeyboard.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtKeyboard.h"
+						Outputs="release\moc_RtKeyboard.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="RtKeyButton.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtKeyButton.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtKeyButton.h -o debug\moc_RtKeyButton.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtKeyButton.h"
+						Outputs="debug\moc_RtKeyButton.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtKeyButton.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtKeyButton.h -o release\moc_RtKeyButton.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtKeyButton.h"
+						Outputs="release\moc_RtKeyButton.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="RtListBox.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtListBox.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtListBox.h -o debug\moc_RtListBox.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtListBox.h"
+						Outputs="debug\moc_RtListBox.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtListBox.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtListBox.h -o release\moc_RtListBox.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtListBox.h"
+						Outputs="release\moc_RtListBox.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="RtPushButton.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtPushButton.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtPushButton.h -o debug\moc_RtPushButton.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtPushButton.h"
+						Outputs="debug\moc_RtPushButton.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtPushButton.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtPushButton.h -o release\moc_RtPushButton.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtPushButton.h"
+						Outputs="release\moc_RtPushButton.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="RtSettingButton.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtSettingButton.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtSettingButton.h -o debug\moc_RtSettingButton.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtSettingButton.h"
+						Outputs="debug\moc_RtSettingButton.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtSettingButton.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtSettingButton.h -o release\moc_RtSettingButton.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtSettingButton.h"
+						Outputs="release\moc_RtSettingButton.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="RtSettingList.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtSettingList.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtSettingList.h -o debug\moc_RtSettingList.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtSettingList.h"
+						Outputs="debug\moc_RtSettingList.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RtSettingList.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 RtSettingList.h -o release\moc_RtSettingList.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;RtSettingList.h"
+						Outputs="release\moc_RtSettingList.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="RtTrackButton.h"
+				>
+			</File>
+			<File
+				RelativePath="RtWaypointButton.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SettingLog.h"
+				>
+			</File>
+			<File
+				RelativePath="SettingScreen.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC SettingScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 SettingScreen.h -o debug\moc_SettingScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;SettingScreen.h"
+						Outputs="debug\moc_SettingScreen.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC SettingScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 SettingScreen.h -o release\moc_SettingScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;SettingScreen.h"
+						Outputs="release\moc_SettingScreen.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="StdGadgets.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine=""
+						AdditionalDependencies=""
+						Outputs=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+						CommandLine=""
+						AdditionalDependencies=""
+						Outputs=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="SysInfoScreen.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC SysInfoScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 SysInfoScreen.h -o debug\moc_SysInfoScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;SysInfoScreen.h"
+						Outputs="debug\moc_SysInfoScreen.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC SysInfoScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 SysInfoScreen.h -o release\moc_SysInfoScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;SysInfoScreen.h"
+						Outputs="release\moc_SysInfoScreen.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="TEditScreen.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC TEditScreen.h &amp; MOC TEditScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 TEditScreen.h -o debug\moc_TEditScreen.cpp &amp;&amp; C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 TEditScreen.h -o debug\moc_TEditScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;TEditScreen.h"
+						Outputs="debug\moc_TEditScreen.cpp;debug\moc_TEditScreen.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC TEditScreen.h &amp; MOC TEditScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 TEditScreen.h -o release\moc_TEditScreen.cpp &amp;&amp; C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 TEditScreen.h -o release\moc_TEditScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;TEditScreen.h"
+						Outputs="release\moc_TEditScreen.cpp;release\moc_TEditScreen.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Track.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TrackList.h"
+				>
+			</File>
+			<File
+				RelativePath="TrackScreen.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC TrackScreen.h &amp; MOC TrackScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 TrackScreen.h -o debug\moc_TrackScreen.cpp &amp;&amp; C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 TrackScreen.h -o debug\moc_TrackScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;TrackScreen.h"
+						Outputs="debug\moc_TrackScreen.cpp;debug\moc_TrackScreen.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC TrackScreen.h &amp; MOC TrackScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 TrackScreen.h -o release\moc_TrackScreen.cpp &amp;&amp; C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 TrackScreen.h -o release\moc_TrackScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;TrackScreen.h"
+						Outputs="release\moc_TrackScreen.cpp;release\moc_TrackScreen.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="UnitsScreen.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC UnitsScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 UnitsScreen.h -o debug\moc_UnitsScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;UnitsScreen.h"
+						Outputs="debug\moc_UnitsScreen.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC UnitsScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 UnitsScreen.h -o release\moc_UnitsScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;UnitsScreen.h"
+						Outputs="release\moc_UnitsScreen.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\ViewOnMap.h"
+				>
+			</File>
+			<File
+				RelativePath="waypointscreen.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC waypointscreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 waypointscreen.h -o debug\moc_waypointscreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;waypointscreen.h"
+						Outputs="debug\moc_waypointscreen.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC waypointscreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 waypointscreen.h -o release\moc_waypointscreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;waypointscreen.h"
+						Outputs="release\moc_waypointscreen.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="WEditScreen.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC WEditScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 WEditScreen.h -o debug\moc_WEditScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;WEditScreen.h"
+						Outputs="debug\moc_WEditScreen.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC WEditScreen.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 WEditScreen.h -o release\moc_WEditScreen.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;WEditScreen.h"
+						Outputs="release\moc_WEditScreen.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}"
+			>
+			<File
+				RelativePath="debug\moc_AltimeterScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_AltimeterScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\debug\moc_AnalyzingThread.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\release\moc_ANTsportScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\debug\moc_ANTsportScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\release\moc_GadgetListBar.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\debug\moc_GadgetListBar.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_GadgetsDialog.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_GadgetsDialog.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_MainMenuBar.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_MainMenuBar.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\debug\moc_MainWindow.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\release\moc_MainWindow.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\debug\moc_RtExtKey.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\release\moc_RtExtKey.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_RtKeyboard.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_RtKeyboard.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_RtKeyButton.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_RtKeyButton.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_RtListBox.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_RtListBox.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_RtPushButton.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_RtPushButton.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_RtSettingButton.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_RtSettingButton.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_RtSettingList.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_RtSettingList.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_SettingScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_SettingScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_SysInfoScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_SysInfoScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_TEditScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_TEditScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_TrackScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_TrackScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_UnitsScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_UnitsScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_waypointscreen.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_waypointscreen.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_WEditScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_WEditScreen.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\qrc_images.cpp"
+				>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\qrc_images.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false"
+			>
+			<File
+				RelativePath="images\background.png"
+				>
+			</File>
+			<File
+				RelativePath="images\btn_return.png"
+				>
+			</File>
+			<File
+				RelativePath="images\btn_return_down.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_altitude.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_arrow.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_battery.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_compass_arrow.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_compass_body.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_compass_graduation.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_ElevationPlot.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_GPS.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_length.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_speed.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_string.png"
+				>
+			</File>
+			<File
+				RelativePath="images\gadget_time.png"
+				>
+			</File>
+			<File
+				RelativePath="images.qrc"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="RCC images.qrc"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\rcc.exe -name images images.qrc -o debug\qrc_images.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\rcc.exe;images.qrc;images\background.png;images\btn_return.png;images\btn_return_down.png;images\gadget_ElevationPlot.png;images\gadget_GPS.png;images\gadget_altitude.png;images\gadget_arrow.png;images\gadget_battery.png;images\gadget_compass_arrow.png;images\gadget_compass_body.png;images\gadget_compass_graduation.png;images\gadget_length.png;images\gadget_speed.png;images\gadget_string.png;images\gadget_time.png"
+						Outputs="debug\qrc_images.cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="RCC images.qrc"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\rcc.exe -name images images.qrc -o release\qrc_images.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\rcc.exe;images.qrc;images\background.png;images\btn_return.png;images\btn_return_down.png;images\gadget_ElevationPlot.png;images\gadget_GPS.png;images\gadget_altitude.png;images\gadget_arrow.png;images\gadget_battery.png;images\gadget_compass_arrow.png;images\gadget_compass_body.png;images\gadget_compass_graduation.png;images\gadget_length.png;images\gadget_speed.png;images\gadget_string.png;images\gadget_time.png"
+						Outputs="release\qrc_images.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="ContourEngine"
+			>
+			<File
+				RelativePath=".\ContourEngine\moc_RoWidget.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoBuffer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoBuffer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoCoord.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoCoord.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoFile.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoFile.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoFileWin32.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoFileWin32.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoGeoImage.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoGeoImage.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoMapFileBase.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoMapFileBase.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoMemDC.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoRotate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoRotate.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoString.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoWidget_2.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoWidget_2.h"
+				>
+				<FileConfiguration
+					Name="Debug|Core2416 (ARMV4I)"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC RoWidget_2.h"
+						CommandLine="C:\Qt\WINCE_4.5.0\bin\moc.exe  -DUNDER_CE -DWINCE -D_WINDOWS -D_UNICODE -DUNICODE -D_WIN32 -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DSTANDARDSHELL_UI_MODEL -D_WIN32_WCE=0x500 -DARMV4I -D_ARMV4I_ -Darmv4i -D_ARM_ -DARM -D_M_ARM -DARM -D__arm__ -DQ_OS_WINCE_STD -DQT_NO_PRINTER -DQT_NO_PRINTDIALOG -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;c:\Qt\WINCE_4.5.0\include\QtCore&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\QtGui&quot; -I&quot;c:\Qt\WINCE_4.5.0\include&quot; -I&quot;c:\Qt\WINCE_4.5.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\WINCE_4.5.0\mkspecs\default -D_MSC_VER=1400 ContourEngine\RoWidget_2.h -o ContourEngine\moc_RoWidget.cpp&#x0D;&#x0A;"
+						AdditionalDependencies="C:\Qt\WINCE_4.5.0\bin\moc.exe;ContourEngine\RoWidget_2.h"
+						Outputs="ContourEngine\moc_RoWidget.cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoWin32.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\RoWorkDir.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\stdafx.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\stdafx.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\TAContourGrid_2.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\TAContourGrid_2.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\TAContourGrids_2.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ContourEngine\TAContourGrids_2.h"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
